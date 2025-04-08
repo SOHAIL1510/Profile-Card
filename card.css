@@ -1,0 +1,120 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #f0f4f8;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Profile Card */
+  .card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Profile Image */
+  .avatar {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #4f46e5;
+  }
+  
+  /* Headings and Text */
+  h1 {
+    font-size: 1.8rem;
+    color: #111827;
+  }
+  
+  .title {
+    color: #6b7280;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .bio {
+    font-size: 0.9rem;
+    color: #374151;
+    margin-bottom: 20px;
+  }
+  
+  /* Social Links */
+  .socials {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .socials a {
+    text-decoration: none;
+    color: #4f46e5;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  .socials a:hover {
+    color: #1e40af;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #4338ca;
+  }
+  
+  /* Responsive Media Query */
+  @media (max-width: 400px) {
+    .card {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+  }
+  .btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-link:hover {
+    background-color: #4338ca;
+  }
+  
