@@ -135,4 +135,20 @@ body {
   .dark-mode .btn-link:hover {
     background-color: #64748b;
   }
+
+  
+  .clock {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-weight: bold;
+    color: #4f46e5;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Highlight effect */
+  .project-box.highlight {
+    border-color: #16a34a;
+    background-color: #f0fdf4;
+  }
   
